@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#Qn : Write a script that takes a filename as an argument, checks if it exists and is readable, and prints file size and last-modified date — or a clear error if it doesn't exist.
+
 read -p "Enter a filename: " filename
 
 if [[ -e $filename ]]; then
